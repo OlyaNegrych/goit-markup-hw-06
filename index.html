@@ -58,32 +58,33 @@
                 </button>
                 <form class="modal-form">
                     <p>Оставьте свои данные, мы вам перезвоним</p>
-                    <div>
+                    
+                    <div class="form-field">
                      <label for="name">Имя</label>
-                     <input type="text" id="name">
+                     <input type="text" id="name" name="name">
                     </div>
 
-                    <div>
+                    <div class="form-field">
                      <label for="tel">Телефон</label>
-                     <input type="tel" id="tel">
+                     <input type="tel" id="tel" name="tel">
                     </div>
 
-                    <div>
+                    <div class="form-field">
                      <label for="email">Почта</label>
-                     <input type="email" id="email">
+                     <input type="email" id="email" name="email">
                     </div>
 
-                    <div>
+                    <div class="form-field textarea">
                      <label for="comment">Комментарий</label>
-                     <input type="textarea" id="comment" placeholder="Введите текст">
+                     <input type="textarea" class="comment" id="comment" name="comment" placeholder="Введите текст">
                     </div>
 
-                    <div>
-                     <input type="radio" id="accept">
+                    <div class="form-field checkbox">
+                     <input type="checkbox" id="accept" name="agree">
                      <label for="accept">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
                     </div>
 
-                    <button type="submit">Отправить</button>
+                    <button type="submit" class="btn-modal">Отправить</button>
                 </form>
             </div>
         </div>
