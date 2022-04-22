@@ -326,10 +326,10 @@ cursor: pointer;
     height: 18px;
     fill: rgba(0, 0, 0, 1);
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heading {
+.form-title {
 display: inline-block;
 margin-bottom: 12px;
 
@@ -338,7 +338,7 @@ font-size: 20px;
 line-height: 1.15;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--title-text-color)
+color: var(--title-text-color);
 }
 
 .form-field {
@@ -356,7 +356,7 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.17px;
 letter-spacing: 0.01em;
-color: var(--text-color)
+color: var(--text-color);
 }
 
 .form-input {
@@ -374,6 +374,8 @@ top: 50%;
 left: 14px;
 width: 18px;
 height: 18px;
+
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus-within .form-icon {
