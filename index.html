@@ -85,13 +85,13 @@
 
                     <label class="form-field textarea">
                         <span class="label">Комментарий</span>
-                        <input type="textarea" class="form-input comment" name="comment" row="5" placeholder="Введите текст">
+                        <textarea class="form-input comment" name="comment" placeholder="Введите текст"></textarea>
                     </label>
 
                     <label class="form-field checkbox">
                         <input type="checkbox" class="form-input visually-hidden" name="accept">
                         <span class="icon-checked"></span>
-                        <p class="label agree">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></p>
+                        <span class="label agree">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></span>
                     </label>
 
                     <button type="submit" class="btn-modal">Отправить</button>
@@ -431,7 +431,7 @@
            <div class="subscribe-thumb">
                 <input type="email" class="input-footer" name="email" placeholder="E-mail" autocomplete="on">
                 <button type="submit" class="btn-footer">
-                    <p>Подписаться</p>
+                    <span>Подписаться</span>
                     <svg>
                         <use href="./images/icons.svg#icon-send"></use>
                     </svg>
