@@ -1004,7 +1004,7 @@ border-radius: 4px;
 border: none;
 }
 
-.btn-footer > p {
+.btn-footer > span {
 margin-right: 10px;
 
 font-weight: 700;
